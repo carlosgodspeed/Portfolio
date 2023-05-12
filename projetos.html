@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="style.css">
+    <!------font icone css------>
+    <link re="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a">C</i>
+                    <div class="logo-text">Carlos Henrique</div>                    
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre-mim.html">Sobre mim</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+                <section id="projetos">
+                    <h2 id="projetos-tam">Projetos Desenvolvidos</h2>
+                    <div class="projects-container">
+                      <div class="project">
+                        <img src="imagens/foto-app-help.png" alt="Projeto 1">
+                        <h3>App Help Desk</h3>
+                        <p>Descrição do Projeto 1</p>
+                        <a href="https://github.com/carlosgodspeed/app-help-desk" class="project-link">ver projeto</a>
+                      </div>
+                      <div class="project">
+                        <img src="imagens/projeto-noticia.png" alt="Projeto 2">
+                        <h3>Site-noticias</h3>
+                        <p>Descrição do Projeto 2</p>
+                        <a href="https://github.com/carlosgodspeed/site-noticias" class="project-link">ver projeto</a>
+                      </div>
+                      <div class="project">
+                        <img src="imagens/game mosquito.png" alt="Projeto 3">
+                        <h3>Game-Mosquito</h3>
+                        <p>Descrição do Projeto 3</p>
+                        <a href="https://github.com/carlosgodspeed/game-mosquito" class="project-link">ver projeto</a>
+                      </div>
+                      <div class="project">
+                        <img src="imagens/despesa-app.png" alt="Projeto 4">
+                        <h3>Despesa-web</h3>
+                        <p>Descrição do Projeto 4</p>
+                        <a href="https://github.com/carlosgodspeed/app-despesa" class="project-link">ver projeto</a>
+                      </div>
+                      <div class="project">
+                        <img src="imagens/tecblog.png" alt="Projeto 5">
+                        <h3>TecBlog</h3>
+                        <p>Descrição do Projeto 5</p>
+                        <a href="https://github.com/carlosgodspeed/projeto-TechBlog" class="project-link">ver projeto</a>
+                      </div>
+                      <div class="project">
+                        <img src="imagens/museu.png" alt="Projeto 6">
+                        <h3>museu</h3>
+                        <p>Descrição do Projeto 6</p>
+                        <a href="https://github.com/carlosgodspeed/projeto-museu" class="project-link">ver projeto</a>
+                      </div>
+                      <div class="project">
+                        <img src="https://user-images.githubusercontent.com/100007663/205411678-32259624-1b46-4ca2-b976-8d6b6cf1c5de.jpeg" alt="Projeto 1">
+                        <h3>Tabela de Livros</h3>
+                        <p>Descrição do Projeto 1</p>
+                        <a href="https://github.com/carlosgodspeed/tabela-livros-react" class="project-link">ver projeto</a>
+                      </div>
+                      <div class="project">
+                        <img src="https://user-images.githubusercontent.com/100007663/213569992-06fe95f2-fa16-4721-a10c-12b3c97f7ecd.jpeg" alt="Projeto 2">
+                        <h3>Busca-cep</h3>
+                        <p>Descrição do Projeto 2</p>
+                        <a href="https://github.com/carlosgodspeed/busca-cep" class="project-link">ver projeto</a>
+                      </div>
+                      <div class="project">
+                        <img src="imagens/banco-react.png" alt="Projeto 3">
+                        <h3>Banco-React</h3>
+                        <p>Descrição do Projeto 3</p>
+                        <a href="https://github.com/carlosgodspeed/Banco-react" class="project-link">ver projeto</a>
+                      </div>
+                    </div>
+                  </section>
+            </header>
+</head>
+<script>
+  var togglebtn=document.querySelector(".togglebtn");
+  var nav=document.querySelector(".navlinks");
+  var links=document.querySelector(".navlinks li");
+
+  togglebtn.addEventListener("click", function(){
+      this.classList.toggle("click");
+      nav.classList.toggle("open");
+  })
+</script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Web</title>
+    <link rel="stylesheet" href="style.css">
+    <!------font icone css------>
+    <link re="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a">C</i>
+                    <div class="logo-text">Carlos Henrique</div>                    
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="sobre-mim.html">Sobre mim</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="Sobre-container">
+              <h2 id="projetos-tam">Informações</h2>
+              <h3 id ="sobre-sobre">a</h3>
+              <section class="skills-section">
+                <h2>Formação Acadêmica</h2>
+                <ul>
+                  <li>Ensino Médio</li>
+                  <li>Reverendo Augusto Pães de Ávila | 2017 - 2019 </li>
+                  <h2></h2>
+                  <li>Tecnólogo em Análise e Desenvolvimento de Sistemas</li> 
+                  <li>Universidade Paulista-UNIP | 2021 - 2022 </li>
+                </ul>
+                <h2>Cursos Complementares</h2>
+                <ul>
+                  <li>Desenvolvimento Web | Udemy</li>
+                  <li> React-Native | Udemy</li>
+                </ul>
+
+              </section>
+              <section class="skills-section">
+                <h2>Tecnologias Utilizadas</h2>
+                <ul>
+                  <li>
+                    <img height="40em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                    <br>
+                    <img height="40em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                    <br>
+                    <img height="40em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                    <br>
+                    <img height="40em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                  </li>
+                  <li>
+                    <br>
+                    <img height="45em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+                    <br>
+                    <img height="45em" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
+                  </li>
+                </ul>
+                <h2>Competências</h2>
+                <ul>
+                  <li>Desenvolvimento Web</li>
+                  <li>Inglês Básico</li>
+                  <li>Trabalho em Equipe</li>
+                  <li>Comunicação</li>
+                </ul>
+              </section>
+              <section class="skills-section">
+                <h2>Informações Adicionais</h2>
+                <ul>
+                  <li>Data de Nascimento 15/07/2001</li>
+                  <li>Idade:21</li>
+                  <li>Habilitação: Categoria B (Carro)</li>
+                  <li>Localização: Praia Grande-SP</li>
+                </ul>
+              </section>
+         </div>
+      </div>
+  </div>
+  <script>
+    var togglebtn=document.querySelector(".togglebtn");
+    var nav=document.querySelector(".navlinks");
+    var links=document.querySelector(".navlinks li");
+
+    togglebtn.addEventListener("click", function(){
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+    })
+ </script>
+</body>
+</head>
+</html>
