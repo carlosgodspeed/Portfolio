@@ -218,8 +218,8 @@ nav .navlinks li a{
   }
 }
 #projetos-tam {
-  margin: 28px;
-  font-size: 2.9rem;
+  margin: 15px;
+  font-size: 2.5rem;
   color: #f9f9f9;
   text-align: center;
 }
@@ -231,15 +231,15 @@ nav .navlinks li a{
 
 .project {
   margin: 25px;
-  padding: 29px;
-  width: 120px;
+  padding: 5px;
+  width: 340px;
   background-color: #000000;
   box-shadow: 10px 10px 10px 10px rgba(243, 241, 241, 0.999);
   color: #faf8f8;
 }
 
 .project img {
-  width: 100%;
+  width: 99%;
   height: 200px;
   object-fit: cover;
 }
