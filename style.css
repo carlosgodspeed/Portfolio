@@ -78,8 +78,8 @@ nav .navlinks{
   margin: 5px 0;
   margin-right: 7px;
   border-radius: 30px;
-  border: 2px solid #fb7601;
-  box-shadow: 0 10px 10px -8px rgba(0 0 0 / 78%);
+  border: 5px solid #fb7601;
+  box-shadow: 0 1px 10px 1px rgba(255, 250, 250, 0.78);
 }
 nav .navlinks li{
   display: inline-block;
@@ -95,8 +95,8 @@ nav .navlinks li a{
   padding-top: 4rem;
 }
 .container .hero-pic{
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
   overflow: hidden;
   border: 8px solid #fbfbfb;
@@ -134,15 +134,15 @@ nav .navlinks li a{
   margin: 25px 0;
 }
 .btn-group .btn{
-  border-color: #d5d5d5;
+  border-color: 10px #ffffff;
   color: #fff;
-  background-color: #333;
+  background-color: #000000;
   padding: 12px 25px;
   margin: 5px 0;
   margin-right: 7px;
   border-radius: 30px;
   border: 2px solid #e5e5e5;
-  box-shadow: 0 10px 10px -8px rgba(0 0 0 / 78%);
+  box-shadow: 0 10px 10px 8px rgba(0 0 0 / 39%);
 }
 .btn.active{
   border-color:#007ced;
@@ -281,30 +281,30 @@ nav .navlinks li a{
 
 .card {
   position: relative;
-  margin-right: 25px;
-  margin-bottom: 20px;
+  margin-right: 29px;
+  margin-bottom: 30px;
   width: 300px;
-  height: 200px;
-  background-color: #f2f2f2;
-  border-radius: 25px;
+  height: 193px;
+  background-color: #4e4a46;
+  border-radius: 1px;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   perspective: 1000px;
-  box-shadow: 0 0 0 5px #00000080;
+  box-shadow: 0 0 0 5px #000000;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .card svg {
   width: 45px;
-  fill: #333;
+  fill: #000000;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .card:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 16px rgb(255, 102, 0);
 }
 
 .card__content {
@@ -339,7 +339,7 @@ nav .navlinks li a{
 .card__description {
   margin: 10px 0 0;
   font-size: 14px;
-  color: #777;
+  color: #000000;
   line-height: 1.4;
 }
 
