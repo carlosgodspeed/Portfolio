@@ -162,7 +162,7 @@ nav .navlinks li a:hover {
   transform: rotate(360deg);
 }
 /* Respnosiv design & displaying navbar for small screen */
-@media(max-width:930px)
+@media(max-width:130px)
 {
   nav .togglebtn{
       display: initial;

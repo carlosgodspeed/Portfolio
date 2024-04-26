@@ -42,7 +42,7 @@
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" required></textarea>
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contato.html"/>
+            <input type="hidden" name="_next" value="https://carlosgodspeed.github.io/Portfolio/contato.html"/>
             <input type="submit" value="Enviar">
         </form>
         <div class="social">
@@ -61,15 +61,6 @@
      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
      <script>
         /** creating button click show hide navbar **/
-        var togglebtn=document.querySelector(".togglebtn");
-        var nav=document.querySelector(".navlinks");
-        var links=document.querySelector(".navlinks li");
-
-        togglebtn.addEventListener("click", function(){
-            this.classList.toggle("click");
-            nav.classList.toggle("open");
-        })
-
         var typed=new Typed(".input",{
             strings:["Web Developer","Mobile Developer"],
             typedSpeed:70,
