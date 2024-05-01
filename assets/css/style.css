@@ -410,6 +410,47 @@ h3{
     transition: .4s;
     z-index: 1;
 }
+/* ----- Mobile BOX ----- */
+#mobile-projects {
+    padding: 20px;
+    background-color:transparent;
+    text-align: center;
+}
+
+#mobile-projects .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; /* Alinhar projetos no topo da tela */
+    padding-top: 20px; /* Adicionar espaço acima dos projetos */
+}
+
+#mobile-projects .project-box {
+  margin: 10px;
+  width: 310px;
+  height: 490px; /* Ajuste a altura conforme necessário */
+  background-color:transparent;
+  box-shadow: transparent;
+  color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  perspective: 1000px;
+  position: relative;
+}
+
+#mobile-projects .project-box img {
+    margin: 10px;
+  width: 310px;
+  height: 490px; /* Ajuste a altura conforme necessário */
+  background-color: transparent;
+  box-shadow: transparent;
+  color:transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  perspective: 1000px;
+  position: relative;
+}
+
 /* ----- CONTACT BOX ----- */
 .contact-info{
     position: relative;
