@@ -380,16 +380,15 @@ h3{
     flex-direction: column;
     width: 30%;
     height: 250px;
-    background: var(--color-white);
+    background: transparent;
     border-radius: 20px;
-    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    box-shadow: 1px 8px 10px 2px (transparent);
     overflow: hidden;
 }
 .project-box img {
     width: 100%; /* Ajusta a largura da imagem para preencher o contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 10px; /* Borda arredondada */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    height: 202px; /* Mantém a proporção da imagem */
+     /* Sombra suave */
     overflow: hidden; /* Oculta partes da imagem que ultrapassam o contêiner */
 }
 .project-box>i{
