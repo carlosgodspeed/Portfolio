@@ -387,7 +387,7 @@ h3{
 }
 .project-box img {
     width: 100%; /* Ajusta a largura da imagem para preencher o contêiner */
-    height: 202px; /* Mantém a proporção da imagem */
+    height: 200px; /* Mantém a proporção da imagem */
      /* Sombra suave */
     overflow: hidden; /* Oculta partes da imagem que ultrapassam o contêiner */
 }
@@ -427,7 +427,7 @@ h3{
 
 #mobile-projects .project-box {
   margin: 10px;
-  width: 310px;
+  width: 315px;
   height: 490px; /* Ajuste a altura conforme necessário */
   background-color:transparent;
   box-shadow: transparent;
